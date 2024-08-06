@@ -4,5 +4,5 @@ AS
 	  `o`.`OrderID` AS `OrderID`,
 	  `o`.`CustomerID` AS `CustomerID`,
 	  `o`.`OrderDate` AS `OrderDate`,
-	  `o`.`TotalAmount` AS `TotalAmount`
+	  `o`.`Total` AS `TotalAmount`
 	FROM `orders` `o`;

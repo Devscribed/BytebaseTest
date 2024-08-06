@@ -3,7 +3,7 @@
   `OrderID` INT DEFAULT NULL,
   `ProductID` INT DEFAULT NULL,
   `Quantity` INT DEFAULT NULL,
-  `UnitPrice` DECIMAL(10, 2) DEFAULT NULL,
+  `UnitPrice` DECIMAL(10, 1) DEFAULT NULL,
   PRIMARY KEY (OrderDetailID)
 )
 ENGINE = INNODB,
@@ -16,4 +16,4 @@ ALTER TABLE `orderdetails`
 
 ALTER TABLE `orderdetails` 
   ADD CONSTRAINT `orderdetails_ibfk_2` FOREIGN KEY (ProductID)
-    REFERENCES products(ProductID);
+    REFERENCES products(ProducID);

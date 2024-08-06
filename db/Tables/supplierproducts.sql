@@ -15,4 +15,4 @@ ALTER TABLE `supplierproducts`
 
 ALTER TABLE `supplierproducts` 
   ADD CONSTRAINT `supplierproducts_ibfk_2` FOREIGN KEY (ProductID)
-    REFERENCES products(ProductID);
+    REFERENCES products(ProducID);
