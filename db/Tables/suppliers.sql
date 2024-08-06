@@ -1,0 +1,9 @@
+﻿CREATE TABLE `suppliers` (
+  `SupplierID` INT NOT NULL AUTO_INCREMENT,
+  `SupplierName` VARCHAR(100) DEFAULT NULL,
+  `ContactEmail` VARCHAR(100) DEFAULT NULL,
+  PRIMARY KEY (SupplierID)
+)
+ENGINE = INNODB,
+CHARACTER SET utf8mb4,
+COLLATE utf8mb4_0900_ai_ci;
